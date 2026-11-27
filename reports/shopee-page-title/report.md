@@ -85,15 +85,15 @@ A investigação demonstrou como ferramentas de desenvolvimento do navegador pod
 
 ### Evidência 1: título exibido na aba do navegador
 
-![Título incorreto na aba](evidence/screenshot-01-browser-tab.png)
+![Título incorreto na aba](evidence/screenshot-01-browser-tab.png.png)
 
 ### Evidência 2: inspeção do título no DevTools
 
-![Inspeção do título no DevTools](evidence/screenshot-02-devtools-title.png)
+![Inspeção do título no DevTools](evidence/screenshot-01-browser-title.png.png)
 
 ### Evidência 3: investigação dos elementos HTML
 
-![JSON com os dois elementos title](evidence/screenshot-03-devtools-investigation.png)
+![JSON com os dois elementos title](evidence/screenshot-02-devtools-investigation.png.png)
 
 ---
 
