@@ -59,7 +59,11 @@ document.head.innerHTML.includes('opl_accessibility_page_title')
 
 ## 4. Resultado observado
 
-O navegador utilizava o primeiro elemento `<title>` como título do documento, exibindo uma chave interna em vez de um título legível.
+Ao consultar a propriedade `document.title`, foi retornado o texto `opl_accessibility_page_title`.
+
+A inspeção do `<head>` mostrou dois elementos `<title>` conectados ao documento. O primeiro continha a chave `opl_accessibility_page_title`, enquanto o segundo continha o título institucional da Shopee Brasil.
+
+Assim, foi constatada uma divergência entre os dois elementos e o título retornado por `document.title`.
 
 ## 5. Resultado esperado
 
@@ -67,11 +71,13 @@ A página deveria apresentar um título legível e apropriado, sem expor chaves 
 
 ## 6. Análise técnica
 
-A presença de dois elementos `<title>` no mesmo documento HTML representa uma inconsistência na estrutura do documento.
+A presença de dois elementos `<title>` no mesmo documento indica uma inconsistência na estrutura HTML observada.
 
-Uma possível explicação é um problema na geração dos metadados ou na integração de algum módulo da aplicação.
+O texto `opl_accessibility_page_title` apresenta características de uma chave interna de tradução ou internacionalização (i18n), mas essa interpretação não foi confirmada.
 
-A origem exata ainda não foi identificada.
+Uma possível hipótese é uma falha na geração ou atualização dos metadados da página.
+
+A origem técnica do comportamento não foi identificada durante esta investigação.
 
 ## 7. Comunicação
 
