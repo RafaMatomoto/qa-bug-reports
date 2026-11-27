@@ -81,6 +81,20 @@ O problema foi documentado e encaminhado ao atendimento da Shopee para análise 
 
 A investigação demonstrou como ferramentas de desenvolvimento do navegador podem ser utilizadas para identificar inconsistências em aplicações web, inspecionar elementos HTML e documentar possíveis falhas técnicas.
 
+## 9. Evidências
+
+### Evidência 1: título exibido na aba do navegador
+
+![Título incorreto na aba](evidence/screenshot-01-browser-tab.png)
+
+### Evidência 2: inspeção do título no DevTools
+
+![Inspeção do título no DevTools](evidence/screenshot-02-devtools-title.png)
+
+### Evidência 3: investigação dos elementos HTML
+
+![JSON com os dois elementos title](evidence/screenshot-03-devtools-investigation.png)
+
 ---
 
 *Estudo independente, realizado para fins educacionais e de desenvolvimento de habilidades em QA.*
