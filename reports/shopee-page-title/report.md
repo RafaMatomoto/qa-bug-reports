@@ -67,7 +67,7 @@ Assim, foi constatada uma divergência entre os dois elementos e o título retor
 
 ## 5. Resultado esperado
 
-A página deveria apresentar um título legível e apropriado, sem expor chaves internas de tradução.
+A página deveria apresentar um único título de documento, legível e apropriado ao conteúdo, sem expor chaves internas de tradução ou internacionalização.
 
 ## 6. Análise técnica
 
@@ -81,11 +81,13 @@ A origem técnica do comportamento não foi identificada durante esta investiga�
 
 ## 7. Comunicação
 
-O problema foi documentado e encaminhado ao atendimento da Shopee para análise da equipe técnica responsável.
+O problema foi documentado e encaminhado ao atendimento da Shopee por meio dos canais de suporte disponíveis, para avaliação e eventual encaminhamento à equipe técnica responsável.
 
 ## 8. Conclusão
 
 A investigação demonstrou como ferramentas de desenvolvimento do navegador podem ser utilizadas para identificar inconsistências em aplicações web, inspecionar elementos HTML e documentar possíveis falhas técnicas.
+
+O caso também permitiu observar uma divergência entre os elementos `<title>` presentes no documento e o valor retornado por `document.title`, reforçando a importância da inspeção do DOM durante atividades de análise e controle de qualidade.
 
 ## 9. Evidências
 
