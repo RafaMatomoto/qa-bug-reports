@@ -103,6 +103,12 @@ O caso também permitiu observar uma divergência entre os elementos `<title>` p
 
 ![JSON com os dois elementos title](evidence/screenshot-02-devtools-investigation.png.png)
 
+## 10. Observação posterior
+
+Após uma atualização manual da página (F5), o título voltou a apresentar o texto "Lista de Pedidos".
+
+Esse comportamento indica que a inconsistência observada inicialmente não foi reproduzida após a atualização. A causa e as condições necessárias para reproduzir o problema permanecem desconhecidas.
+
 ---
 
 *Estudo independente, realizado para fins educacionais e de desenvolvimento de habilidades em QA.*
